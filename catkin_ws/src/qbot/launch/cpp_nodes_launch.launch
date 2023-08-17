@@ -1,0 +1,5 @@
+<launch>
+    <param name="freq" type="int" value="1"/>    
+    <node name="talker_node" pkg="qbot" type="talker"/>
+    <node name="listener_node" pkg="qbot" type="listener" output="screen"/>
+</launch>

@@ -1,0 +1,2 @@
+qbot:ra_3d:urdf2:urdf2_moveit
+-DCATKIN_DEVEL_PREFIX=/home/mohamed/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mohamed/catkin_ws/install -G Unix Makefiles

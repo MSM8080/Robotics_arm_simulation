@@ -1,0 +1,8 @@
+prefix=/home/mohamed/catkin_ws/install
+
+Name: urdf2_moveit
+Description: Description of urdf2_moveit
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

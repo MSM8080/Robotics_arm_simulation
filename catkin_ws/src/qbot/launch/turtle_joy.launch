@@ -1,0 +1,6 @@
+<launch>
+    <param name="joy_node/dev" value="/dev/input/js1"/>
+    <node pkg="joy" type="joy_node" name="joy_node" />
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node"/>
+    <node pkg="qbot" type="turtle_joy.py" name="turtle_joy"/>
+</launch> 

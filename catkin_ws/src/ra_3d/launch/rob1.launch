@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+    <param name="robot_description" textfile="$(find ra_3d)/urdf/rob1.urdf"/>
+    <arg name="rob1_rviz_config_file" default="$(find ra_3d)/config/rob1.rviz"/>    
+    <!-- args="-d $(arg rob1_rviz_config_file)" -->
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher"/>
+    <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui"/>
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(arg rob1_rviz_config_file)"/>
+
+</launch>

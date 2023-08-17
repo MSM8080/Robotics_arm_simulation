@@ -1,0 +1,8 @@
+prefix=/home/mohamed/catkin_ws/devel
+
+Name: RA-3D
+Description: Description of RA-3D
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

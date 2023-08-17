@@ -1,0 +1,8 @@
+prefix=/home/mohamed/catkin_ws/devel
+
+Name: ra_3d
+Description: Description of ra_3d
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -lra_3d
+Requires: roscpp rospy std_msgs message_runtime

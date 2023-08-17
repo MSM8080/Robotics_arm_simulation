@@ -1,0 +1,8 @@
+prefix=/home/mohamed/catkin_ws/devel
+
+Name: qbot
+Description: Description of qbot
+Version: 0.0.0
+Cflags: -I/home/mohamed/catkin_ws/devel/include -I/home/mohamed/catkin_ws/src/qbot/include
+Libs: -L${prefix}/lib -lqbot
+Requires: roscpp rospy std_msgs message_runtime
